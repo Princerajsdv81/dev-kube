@@ -12,6 +12,7 @@ RUN chmod +x kubectl
 
 RUN mv kubectl /usr/sbin
 
+
 #Install java 
 
 RUN yum install java -y
@@ -33,6 +34,10 @@ RUN mkdir /root/.kube
 COPY config /root/.kube
 COPY *.crt /root/
 COPY client.key /root/
+
+#Install sudo command so that we do not have any conflict of permissions in Jenkins
+
+RUN yum install sudo -y
 
 
 CMD /bin/bash
