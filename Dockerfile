@@ -21,6 +21,9 @@ RUN yum install java -y
 
 RUN yum install openssh-server -y
 
+#Creating the root directory for jenkins slave
+
+RUN mkdir /root/jenkins
 
 #Generating the ssh key in the container
 
