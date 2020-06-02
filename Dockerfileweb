@@ -14,4 +14,4 @@ EXPOSE 80
 
 CMD httpd && /bin/bash
 
-CMD /bin/bash
+CMD [ "/bin/sh", "-ec", "while :; do echo '.'; sleep 5 ; done" ]
