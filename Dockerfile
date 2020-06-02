@@ -31,7 +31,7 @@ RUN ssh-keygen -A
 
 #We need to run the services of ssh
 
-CMD [ "/usr/sbin/sshd", "-D" ] 
+CMD [ "/usr/sbin/sshd", "-D" ] && /bin/bash
 
 RUN mkdir /root/.kube
 COPY config /root/.kube
