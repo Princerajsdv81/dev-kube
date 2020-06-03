@@ -15,4 +15,5 @@ spec:
   spec:
    containers:
    - name: myweb-con
+     imagePullPolicy: Always
      image: shhhhhubhammmm/web-php-dev:v1
