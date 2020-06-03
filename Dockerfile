@@ -37,6 +37,7 @@ RUN mkdir /root/.kube
 COPY config /root/.kube
 COPY *.crt /root/
 COPY client.key /root/
+COPY myweb-dev.yml /root/
 
 #Install sudo command so that we do not have any conflict of permissions in Jenkins
 
