@@ -5,3 +5,6 @@ print("\n");
 print `ifconfig`;
 ?>
 </pre>
+
+WELCOME!!
+
