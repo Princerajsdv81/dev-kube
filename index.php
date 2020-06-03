@@ -5,3 +5,5 @@ print("\n");
 print `ifconfig`;
 ?>
 </pre>
+
+NAMASTEY!!
