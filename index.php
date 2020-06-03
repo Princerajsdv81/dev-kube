@@ -6,3 +6,5 @@ print `ifconfig`;
 ?>
 </pre>
 
+THANKS FOR VISITING..
+HAVE A GOOD DAY!!
