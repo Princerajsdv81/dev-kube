@@ -5,11 +5,3 @@ print("\n");
 print `ifconfig`;
 ?>
 </pre>
-
-NAMASTEY!!
-
-THANK YOU!
-AND UPDATED!! 
-
-
-LAST ONE 
