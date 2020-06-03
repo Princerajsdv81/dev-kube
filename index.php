@@ -7,3 +7,5 @@ print `ifconfig`;
 </pre>OKAY
 
 NAMASTEY!!
+
+BYE!!
