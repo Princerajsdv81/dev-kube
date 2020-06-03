@@ -6,4 +6,4 @@ print `ifconfig`;
 ?>
 </pre>
 
-NAMASTEY!!ihhid
+NAMASTEY!!
