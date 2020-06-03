@@ -9,3 +9,4 @@ print `ifconfig`;
 NAMASTEY!!
 
 BYE!!
+WAIT
